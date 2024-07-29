@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Borracha da Disney",
+      "price": 0.99
+    },
+    {
+      "id": "2",
+      "name": "Papel Chamequinho",
+      "price": 6.99
+    },
+    {
+      "id": "3",
+      "name": "Caneta Bic",
+      "price": 2.99
+    },
+    {
+      "id": "aee6",
+      "name": "Teste",
+      "price": 99.99
+    },
+    {
+      "id": "ca88",
+      "name": "TEste insomnia",
+      "price": 10.99
+    }
+  ]
+}

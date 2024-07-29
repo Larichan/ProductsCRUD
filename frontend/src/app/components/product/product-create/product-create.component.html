@@ -1,0 +1,12 @@
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <app-product-form [productInput]="product"></app-product-form>
+    <div class="buttons">
+        <button mat-raised-button (click)="createProduct()" color="primary">
+            Criar Produto
+        </button>
+        <button mat-raised-button (click)="navigateBackToProductCrud()">
+            Voltar a Produtos
+        </button>
+    </div>
+</mat-card>

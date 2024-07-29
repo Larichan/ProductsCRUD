@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.pink {
+    color: hsla(325, 77%, 63%, 0.74);
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+.mat-mdc-snack-bar-container {
+    &.msg-success {
+        --mdc-snackbar-container-color: #28a745;
+        color: white;
+    }
+}
+
+.mat-mdc-snack-bar-container {
+    &.msg-error {
+        --mdc-snackbar-container-color: #e35e6b;
+        color: white;
+    }
+}

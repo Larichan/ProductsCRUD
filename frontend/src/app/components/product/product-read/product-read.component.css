@@ -1,0 +1,19 @@
+.full-width-table {
+    width: 100%;
+}
+  
+button {
+  max-width: 15%;
+}
+
+.edit {
+  margin-right: 0.7rem;
+}
+
+.edit > i {
+  color: pink;
+}
+
+.delete > i {
+  color: #e35e6b;
+}

@@ -1,0 +1,18 @@
+.sidenav {
+    background-color: pink;
+    width: 12.5rem;
+    border-radius: 0%;
+}
+
+.sidenav a {
+    border-radius: 0%;
+}
+
+.content {
+    padding: 1rem;
+    background-color: white;
+}
+
+.nav-item-text {
+    color: white;
+}
