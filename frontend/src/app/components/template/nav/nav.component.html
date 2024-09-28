@@ -2,16 +2,20 @@
     <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
         <mat-nav-list class="nav-list">
             <a mat-list-item routerLink="/">
-                <i class="material-icons v-middle nav-item-text">
-                    home
-                </i>
-                <span class="nav-item-text">Início</span>
+                <div class="navItens">
+                    <i class="material-icons v-middle nav-item-text">
+                        home
+                    </i>
+                    <span class="nav-item-text">Início</span>
+                </div>
             </a>
-            <a mat-list-item aria-label="Teste" routerLink="/products">
-                <i class="material-icons v-middle nav-item-text">
-                    storefront
-                </i>
-                <span class="nav-item-text">Produtos</span>
+            <a mat-list-item routerLink="/products">
+                <div class="navItens">
+                    <i class="material-icons v-middle nav-item-text">
+                        storefront
+                    </i>
+                    <span class="nav-item-text">Produtos</span>
+                </div>
             </a>
         </mat-nav-list>
     </mat-sidenav>

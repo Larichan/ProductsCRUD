@@ -16,3 +16,9 @@
 .nav-item-text {
     color: white;
 }
+
+.navItens {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}

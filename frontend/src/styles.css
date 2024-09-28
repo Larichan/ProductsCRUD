@@ -24,3 +24,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
         color: white;
     }
 }
+
+.mat-mdc-raised-button.mat-red:not(:disabled) {
+    background-color: rgb(197, 56, 56);
+    color: #fff;
+}
+
+.mat-mdc-raised-button.mat-green:not(:disabled) {
+    background-color: rgb(72, 197, 56);
+    color: #fff;
+}
+
+.mat-mdc-raised-button.mat-red:hover {
+    background-color: rgb(156, 54, 54);
+}
